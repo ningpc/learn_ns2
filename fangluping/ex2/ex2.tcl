@@ -8,8 +8,8 @@ set val(ll)		LL 							;#逻辑链路层类型
 set val(ant)	Antenna/OmniAntenna			;#天线模型
 set val(x)		1000						;#拓扑范围
 set val(y)		1000						;#拓扑范围
-set val(cp)		" "							;#节点移动的模型文件
-set val(sc)		" "							;#
+set val(cp)		""							;#节点移动的模型文件
+set val(sc)		""							;#
 set val(ifqlen)	50							;#网络接口队列的大小
 set val(nn)		3							;#移动节点个数
 set val(seed)	0.0							;#
@@ -19,19 +19,16 @@ set val(rp) 	DSDV						;#设定无线路由协议
 set AgentTrace	ON 							;#
 set RouterTrace	ON
 set MacTrace	OFF
-
 #初始化全局变量
 set ns [new Simulator]
 $ns color 1 blue
 $ns color 2 red
-
 #打开Trace文件
 $ns use-newtrace							;#使用新的Trace格式
 set namfd [open nam-exp.tr w]
 $ns namtrace-all-wireless $namfd $val(x) $val(y)
 set tracefd [open $val(tr) w]
 $ns trace-all $tracefd
-
 #建立一个拓扑对象，以记录移动节点在拓扑内移动的情况
 set topo [new Topography]
 #拓扑范围1000m*1000m
@@ -53,6 +50,7 @@ $ns node-config -adhocRouting $val(rp) \
 				-topoInstance $topo \
 				-agentTrace ON \
 				-routerTrace ON \
+				-macTrace OFF \
 				-movementTrace OFF
 for {set i 0} {$i < $val(nn)} {incr i} {
 	set node($i) [$ns node]
