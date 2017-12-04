@@ -1,14 +1,9 @@
-<<<<<<< Updated upstream
-<img src="img/ns2.png" width = "60%" align=center/>
-由:lollipop:和:meat_on_bone:强力驱动  
-
-如您有任何问题，请联系: [weixinbuyi@163.com](mailto:weixinbuyi@163.com)  
-Everything will be :ok_hand:!
-=======
 <img src="https://github.com/ningpc/learn_ns2/raw/master/img/ns2.png" width = "60%" align=center/>
 由:lollipop:和:meat_on_bone:强力驱动  
-NS2 [官方网站](https://www.isi.edu/nsnam/ns/)  已迁移至[wiki](http://nsnam.sourceforge.net/wiki/index.php/Main_Page) (部分翻译节选自wiki)
+NS2 [官方网站](https://www.isi.edu/nsnam/ns/)  已迁移至[wiki](http://nsnam.sourceforge.net/wiki/index.php/Main_Page) (部分翻译节选自wiki)  
+
 >Ns is a discrete event simulator targeted at networking research. Ns provides substantial support for simulation of TCP, routing, and multicast protocols over wired and wireless (local and satellite) networks.  
+
 
 - [Download](#Download)
 - [Installation](#Installation)
@@ -19,7 +14,7 @@ NS2 [官方网站](https://www.isi.edu/nsnam/ns/)  已迁移至[wiki](http://nsn
 #### Download
 ns2 current release 2.35(released Nov 4 2011)  
 推荐下载`allinone`包，包含所有必备包。
-Download from sourceforge: [ns-allinone-2.35.tar.gz](https://sourceforge.net/projects/nsnam/) or my repo: [Here](source/ns-allinone-2.35.tar.gz)
+Download from sourceforge: [ns-allinone-2.35.tar.gz](https://sourceforge.net/projects/nsnam/) or my repo: [Here](source/ns-allinone-2.35.tar.gz).
 
 **Package contains:** 
 - Tcl release 8.5.10 (required component)
@@ -78,7 +73,7 @@ The NS Manual [PDF](https://www.isi.edu/nsnam/ns/doc/ns_doc.pdf) in isi or in my
 [**nam**](nam)
 
 #### FAQ
-Q1: tclsh或ns编辑界面方向键^[[A、^[[D问题
+Q1: tclsh或ns编辑界面方向键^[[A、^[[D问题  
 A1: 
 
 	#解决方法一，安装rlwrap
