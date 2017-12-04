@@ -1,0 +1,276 @@
+Policy Table(20):
+Flow (0 to 3): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 5): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 7): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 9): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 11): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 13): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 15): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 17): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 19): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 21): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 23): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 25): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 27): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 29): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 31): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 33): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 35): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 37): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 39): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+Flow (0 to 41): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (3 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (5 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (7 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (9 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (11 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (13 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (15 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (17 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (19 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (21 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (23 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (25 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (27 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (29 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (31 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (33 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CMin count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+in count
+ policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (35 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (37 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (39 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+Policy Table(1):
+Flow (41 to 0): TSW2CM policer, initial code point 10, CIR 30000.0 bps.
+
+Policer Table:
+TSW2CM policer code point 10 is policed to code point 11.
+
+
+Packets Statistics
+=======================================
+ CP  TotPkts   TxPkts   ldrops   edrops
+ --  -------   ------   ------   ------
+All    26430    25350        0     1080
+ 10     1116     1116        0        0
+ 11    25314    24234        0     1080
