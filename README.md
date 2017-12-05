@@ -77,7 +77,7 @@ The NS Manual [PDF](https://www.isi.edu/nsnam/ns/doc/ns_doc.pdf) in isi or in my
 [**nam**](nam)
 
 #### FAQ
-Q1: tclsh或ns编辑界面方向键^[[A、^[[D问题
+Q1: tclsh或ns编辑界面方向键^[[A、^[[D问题  
 A1: 
 
 	#解决方法一，安装rlwrap
