@@ -1,5 +1,10 @@
-<img src="https://github.com/ningpc/learn_ns2/raw/master/img/ns2.png" width = "60%" align="center"/>
-由:lollipop:和:meat_on_bone:强力驱动
+<div align=center> 
+<img src="https://github.com/ningpc/learn_ns2/raw/master/img/ns2.png" width = "60%"/>
+</div>  
+
+<div align=center> 
+ 由:lollipop:和:meat_on_bone:强力驱动
+ </div>
 
 NS2 [官方网站](https://www.isi.edu/nsnam/ns/) 已迁移至[wiki](http://nsnam.sourceforge.net/wiki/index.php/Main_Page) (部分翻译节选自wiki)
 >NS is a discrete event simulator targeted at networking research. Ns provides substantial support for simulation of TCP, routing, and multicast protocols over wired and wireless (local and satellite) networks.  
@@ -10,7 +15,7 @@ NS2 [官方网站](https://www.isi.edu/nsnam/ns/) 已迁移至[wiki](http://nsna
 - [Demos](#demos)
 - [Miscellaneous](#miscellaneous)
 - [FAQ](#faq)
-#### Download
+### Download
 ns2 current release 2.35(released Nov 4 2011)  
 推荐下载`allinone`包，包含所有必备包。
 Download from sourceforge: [ns-allinone-2.35.tar.gz](https://sourceforge.net/projects/nsnam/) or my repo: [Here](source/ns-allinone-2.35.tar.gz)
@@ -27,16 +32,16 @@ Download from sourceforge: [ns-allinone-2.35.tar.gz](https://sourceforge.net/pro
 - SGB version 1.0 (?) (optional component, builds sgblib for all UNIX type platforms)
 - Gt-itm gt-itm and sgb2ns 1.1 (optional component)
 - Zlib version 1.2.3 (optional, but required should Nam be used) 
-#### Installation
+### Installation
 For Ubuntu-16.04.3
 
 	something to add
 	something to add
 For Windows(cygwin)不推荐，暂无. 
-#### Documents
+### Documents
 The NS Manual [PDF](https://www.isi.edu/nsnam/ns/doc/ns_doc.pdf) in isi or in my repo [here](doc/NS%20Manual%20%5Ben.2011%5D.pdf) or [HTML format](http://www.isi.edu/nsnam/ns/doc/index.html).
 
-#### Demos
+### Demos
 **Unicast routing**
 - **ns simple-dyn.tcl** in ns-2/tcl/ex: a simple demo to illustrate **link failure and recovery**; no dynamic routing is done to heal the failure.
 - **ns simple-rtg.tcl** in ns-2/tcl/ex: a **dynamic routing** demo.
@@ -48,8 +53,8 @@ The NS Manual [PDF](https://www.isi.edu/nsnam/ns/doc/ns_doc.pdf) in isi or in my
 - **ns cmcast.tcl** in ns-2/tcl/ex/newmcast: **centralized multicast computation** for use in ``session-level'' simulations. Instead of using join messages and implementing multicast routing protocols in the individual routers, the multicast routing tables are implemented in a centralized fashion for the entire topology. PIM sparse mode shared trees and source-specific trees are supported. Comments in cmcast.txt. 
 **ns cmcast-spt.tcl** uses source-specific trees.
 **ns cmcast-100.tcl** creates a topology of 100 nodes and 950 edges. 10 members join the multicast group. One sender sends for 90 seconds.
-- **ns detailedDM*.tcl** in ns-2/tcl/ex/newmcast: Dense Mode protocol that adapts to network changes and works with LAN topologies (LANs created by the multi-link method). Note that this is the recommended version of the dense mode protocol in ns. Comments in detailedDM.txt.
-- **ns mcast*.tcl** in ns-2/tcl/ex/mcast*.tcl: multicast routing demos to illustrate the use of Centralized multicast and the dense mode protocols. Comments in mcast.txt
+- **ns detailedDM\*.tcl** in ns-2/tcl/ex/newmcast: Dense Mode protocol that adapts to network changes and works with LAN topologies (LANs created by the multi-link method). Note that this is the recommended version of the dense mode protocol in ns. Comments in detailedDM.txt.
+- **ns mcast\*.tcl** in ns-2/tcl/ex/mcast*.tcl: multicast routing demos to illustrate the use of Centralized multicast and the dense mode protocols. Comments in mcast.txt
 
 **Multicast transport**
 - **ns simple-rtp.tcl** in ns-2/tcl/ex/newmcast: **RTP**. Black for data packets, green for RTCP reports, cream for join messages, purple for prune messages.
@@ -67,7 +72,7 @@ The NS Manual [PDF](https://www.isi.edu/nsnam/ns/doc/ns_doc.pdf) in isi or in my
 - **ns tg.tcl** in ns-2/tcl/ex: traffic generation modules. Comments in tg.txt.
 - **ns-2/tcl/ex/rbp_demo.tcl** Compres TCP with rate-based pacing against other variants.
 - **ns mac-test.tcl** in ns-2/tcl/ex: tests for LANs, especially the MAC protocols. 
-#### Miscellaneous
+### Miscellaneous
 [**Tcl/Tk**](tcl)  
 [**nam**](nam)
 
