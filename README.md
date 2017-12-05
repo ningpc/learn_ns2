@@ -1,20 +1,19 @@
-<img src="https://github.com/ningpc/learn_ns2/raw/master/img/ns2.png" width = "60%" align=center/>
-由:lollipop:和:meat_on_bone:强力驱动  
-NS2 [官方网站](https://www.isi.edu/nsnam/ns/)  已迁移至[wiki](http://nsnam.sourceforge.net/wiki/index.php/Main_Page) (部分翻译节选自wiki)  
+<img src="https://github.com/ningpc/learn_ns2/raw/master/img/ns2.png" width = "60%" align="center"/>
+由:lollipop:和:meat_on_bone:强力驱动
 
->Ns is a discrete event simulator targeted at networking research. Ns provides substantial support for simulation of TCP, routing, and multicast protocols over wired and wireless (local and satellite) networks.  
+NS2 [官方网站](https://www.isi.edu/nsnam/ns/) 已迁移至[wiki](http://nsnam.sourceforge.net/wiki/index.php/Main_Page) (部分翻译节选自wiki)
+>NS is a discrete event simulator targeted at networking research. Ns provides substantial support for simulation of TCP, routing, and multicast protocols over wired and wireless (local and satellite) networks.  
 
-
-- [Download](#Download)
-- [Installation](#Installation)
-- [Documents](#Documents)
-- [Demos](#Demos)
-- [Miscellaneous](#Miscellaneous)
+- [Download](#download)
+- [Installation](#installation)
+- [Documents](#documents)
+- [Demos](#demos)
+- [Miscellaneous](#miscellaneous)
 - [FAQ](#faq)
-### Download
+#### Download
 ns2 current release 2.35(released Nov 4 2011)  
 推荐下载`allinone`包，包含所有必备包。
-Download from sourceforge: [ns-allinone-2.35.tar.gz](https://sourceforge.net/projects/nsnam/) or my repo: [Here](source/ns-allinone-2.35.tar.gz).
+Download from sourceforge: [ns-allinone-2.35.tar.gz](https://sourceforge.net/projects/nsnam/) or my repo: [Here](source/ns-allinone-2.35.tar.gz)
 
 **Package contains:** 
 - Tcl release 8.5.10 (required component)
@@ -28,16 +27,16 @@ Download from sourceforge: [ns-allinone-2.35.tar.gz](https://sourceforge.net/pro
 - SGB version 1.0 (?) (optional component, builds sgblib for all UNIX type platforms)
 - Gt-itm gt-itm and sgb2ns 1.1 (optional component)
 - Zlib version 1.2.3 (optional, but required should Nam be used) 
-### Installation
+#### Installation
 For Ubuntu-16.04.3
 
 	something to add
 	something to add
 For Windows(cygwin)不推荐，暂无. 
-### Documents
+#### Documents
 The NS Manual [PDF](https://www.isi.edu/nsnam/ns/doc/ns_doc.pdf) in isi or in my repo [here](doc/NS%20Manual%20%5Ben.2011%5D.pdf) or [HTML format](http://www.isi.edu/nsnam/ns/doc/index.html).
 
-### Demos
+#### Demos
 **Unicast routing**
 - **ns simple-dyn.tcl** in ns-2/tcl/ex: a simple demo to illustrate **link failure and recovery**; no dynamic routing is done to heal the failure.
 - **ns simple-rtg.tcl** in ns-2/tcl/ex: a **dynamic routing** demo.
@@ -68,12 +67,12 @@ The NS Manual [PDF](https://www.isi.edu/nsnam/ns/doc/ns_doc.pdf) in isi or in my
 - **ns tg.tcl** in ns-2/tcl/ex: traffic generation modules. Comments in tg.txt.
 - **ns-2/tcl/ex/rbp_demo.tcl** Compres TCP with rate-based pacing against other variants.
 - **ns mac-test.tcl** in ns-2/tcl/ex: tests for LANs, especially the MAC protocols. 
-### Miscellaneous
+#### Miscellaneous
 [**Tcl/Tk**](tcl)  
 [**nam**](nam)
 
-### FAQ
-Q1: tclsh或ns编辑界面方向键^[[A、^[[D问题  
+#### FAQ
+Q1: tclsh或ns编辑界面方向键^[[A、^[[D问题
 A1: 
 
 	#解决方法一，安装rlwrap
