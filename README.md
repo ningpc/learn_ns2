@@ -50,6 +50,7 @@ Download from sourceforge: [ns-allinone-2.35.tar.gz](https://sourceforge.net/pro
 
 **STEP2:** Extract and Install NS(`path_to`为ns2路径)
 
+	cd ~/path_to/
 	tar -xvzf ns-allinone-2.35.tar.gz
 将`~/path_to/ns-allinone-2.35/ns-2.35/linkstate/ls.h` 137行
 
