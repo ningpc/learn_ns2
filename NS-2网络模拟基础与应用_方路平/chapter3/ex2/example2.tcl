@@ -52,9 +52,9 @@ $ns node-config -adhocRouting     $val(rp) \
                 -routerTrace      ON \
                 -macTrace         OFF \
                 -movementTrace    OFF
-for {set i 0} { $i < $val(nn)} {incr i} {
-             set node($i) [$ns node]
-             $node($i) random-motion 0
+for {set i 0} { $i < $val(nn)} {incr i} { ;#$val(nn)=3
+             set node($i) [$ns node] ;#创建3个网络节点
+             $node($i) random-motion 0 ;#节点不随机移动
 }
 
 #设定各移动节点的初始位置
@@ -62,7 +62,7 @@ for {set i 0} { $i < $val(nn)} {incr i} {
 $node(0) set X_ 350.0
 $node(0) set Y_ 500.0
 $node(0) set Z_ 0.0
-#设定节点1的初始位置
+#设定节点1的初始位置，1000*1000的场景，节点1位于中间
 $node(1) set X_ 500.0
 $node(1) set Y_ 500.0
 $node(1) set Z_ 0.0
@@ -95,7 +95,7 @@ $cbr(0) set maxpkts_ 10000
 $cbr(0) attach-agent $udp(0)
 $ns connect $udp(0) $null(0)
 $ns at 100.0 "$cbr(0) start"
-#在Nam中定义节点初始所在位置
+#在Nam中定义节点初始大小
 for {set i 0} {$i < $val(nn)} {incr i} {
                    #只有定义了移动模型后，这个函数才能被调用
                    $ns initial_node_pos $node($i) 60
@@ -106,7 +106,7 @@ for {set i 0} {$i < $val(nn)} {incr i} {
                    $ns at $val(stop) "$node($i) reset"
 }
 
-$ns at $val(stop) "stop"
+$ns at $val(stop) "stop" ;#$val(stop)模拟时间结束，调用stop函数
 $ns at $val(stop) "puts \"NS EXITING...\";$ns halt"
 proc stop {} {
    global ns tracefd namfd
@@ -114,7 +114,7 @@ proc stop {} {
    close $tracefd
    close $namfd
 }
-puts $tracefd "M 0.0 nn $val(nn) x $val(x) rp $val(rp)"
+puts $tracefd "M 0.0 nn $val(nn) x $val(x) rp $val(rp)" ;#写入节点数、模拟场景大小、路由协议routing protocol
 puts $tracefd "M 0.0 sc $val(sc) cp $val(cp) seed $val(seed)"
 puts $tracefd "M 0.0 prop $val(prop) ant $val(ant)"
 puts "Starting Simulation..."
