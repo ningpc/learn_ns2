@@ -115,7 +115,7 @@ proc stop {} {
    close $namfd
 }
 puts $tracefd "M 0.0 nn $val(nn) x $val(x) rp $val(rp)" ;#写入节点数、模拟场景大小、路由协议routing protocol
-puts $tracefd "M 0.0 sc $val(sc) cp $val(cp) seed $val(seed)"
+puts $tracefd "M 0.0 sc $val(sc) cp $val(cp) seed $val(seed)" ;#写入
 puts $tracefd "M 0.0 prop $val(prop) ant $val(ant)"
 puts "Starting Simulation..."
 $ns run
